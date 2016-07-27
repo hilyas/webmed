@@ -1,0 +1,95 @@
+body 
+{
+	font-family: "Trebuchet MS",Arial;
+	font-size: 14px;
+	background-color: #212426;
+	color: #11151E;
+}
+
+input, textarea, select 
+{
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+#vsubject_search {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	font-size: 16px;
+}
+
+#vsubject_search .heading 
+{
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	color: #B9AA81;
+	/*color: yellow;*/
+}
+
+
+
+#vsubject_search form 
+{
+	background-color: #B9AA81;
+	/*background-color: white;*/
+	padding: 10px;
+	border-radius: 20px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+/*#vsubject_search form option
+{
+	text-align: right;
+	background-color: #B9AA81;
+	
+}*/
+
+#vsubject_search form label 
+{
+	width: 8em;
+	font-weight: bold;
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+	display: block;
+}
+
+#vsubject_search .leftcolumn
+{
+	width: 200px;
+	font-weight: bold;
+	text-align: right;
+	float: right;
+	color: yellow;
+}
+
+#vsubject_search .rightcolumn
+{
+	width: 100px;
+	font-weight: bold;
+	text-align: left;
+	float: left;
+	color: yellow;
+}
+
+
+#vsubject_search .centercolumn
+{
+	font-weight: bold;
+	text-align: center;
+	margin-right: 0.5em;
+	display: block;
+}
+
+#vsubject_search .error
+{
+	font-weight: bold;
+	text-align: center;
+	margin-right: 0.5em;
+	display: block;
+	color: red;
+}
